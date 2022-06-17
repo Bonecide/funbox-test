@@ -8,7 +8,7 @@ export default function DisableCard({filling , portions , present, weight , isEn
                 <div  className="Card">
                     
                         <div className="Card_text">
-                                <p className='description'>sdfdsfdsfdsf</p>
+                                <p className='description'>Сказочное заморское яство</p>
                                 <h2>Нямушка</h2>
                                 <h3>с {filling}</h3>
                                 <p className='Card_present'>{portions}
