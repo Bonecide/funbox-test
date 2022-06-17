@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1 ,
+        "filling" : "фуа-гра",
+        "portions" : "10 порций",
+        "present" : "мышь в подарок",
+        "weight" : "0,5",
+        "about" : "Печень утки разварная с артишоками.",
+        "isEnable" : true ,
+        "IsFun" : false
+    },
+    {
+        "id" : 2 ,
+        "filling" : "рыбой",
+        "portions" : "40 порций",
+        "present" : "2 мыши в подарок",
+        "weight" : 2,
+        "about" : "Головы щучьи с чесноком да свежайшая сёмгушка.",
+        "isEnable" : false ,
+        "IsFun" : false
+    },
+    {
+        "id" : 3 ,
+        "filling" : "курой",
+        "portions" : "100 порций",
+        "present" : "5 мышей в подарок",
+        "weight" : 5,
+        "about" : "Филе из цыплят с трюфелями в бульоне.",
+        "isEnable" : true ,
+        "IsFun" : true
+    }
+]

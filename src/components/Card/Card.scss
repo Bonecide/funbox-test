@@ -1,0 +1,95 @@
+.Card_container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+.Card {
+    background:#f2f2f2;
+    width: auto;
+    padding-top: 18px;
+    position: relative;
+    transition: all 0.3s;
+    clip-path: polygon(9% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 9%);
+    border-radius: 12px;
+    height: 480px;
+    width: 320px;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover {
+        .descriptionActive {
+            color: #E62E7A;
+        }
+    }
+    &_text {
+        width: 80%;
+        margin: 0 auto;
+        height: 50%;
+        h2 {
+            font-size: 48px;
+            font-weight: 700;
+        }
+        h3 {
+            font-size: 28px;
+            font-weight: 700;
+        }
+       p {
+        color: #666666;
+        &:not(:first-child) {
+            margin-top: 15px;
+        }
+        }
+    }
+    &_img {
+        height: 100%;
+        width: 320px;
+        position: relative;
+        img {
+            position: absolute;
+            height: 70%;
+            right: 10px;
+        }
+    }
+    &_weight {
+        color: white;
+        position: absolute;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 999;
+        bottom: 12px;
+        right: 12px;
+        transition: all 0.3s;
+        p {
+            font-size: 42px;
+            font-weight: 400;
+        }
+        .KG {
+            font-size: 21px;
+        }
+    }
+    &_About {
+        text-align: center;
+        color: white;
+        font-size: 13px;
+        span {
+            cursor: pointer;
+            color: #2EA8E6;
+            overflow: hidden;
+            border-bottom: 1.7px dashed #2EA8E6 ;
+        }
+    }
+    hr {
+        height: 300px;
+        width: 4px;
+        transform: rotate(33deg);
+        position: absolute;
+        bottom: 63%;
+        left: 0;
+        transition: all 0.3s;
+    }
+}
